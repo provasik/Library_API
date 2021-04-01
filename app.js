@@ -58,7 +58,7 @@ app.delete('/book/:id', (req, res) => {
 
 })
 
-// put  delete a book
+// put  upgrate a book
 app.put('/book/:id', (req, res) => {
     var searchIndex = library.findIndex(library => library.id == req.params.id)
 
